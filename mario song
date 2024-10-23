@@ -1,0 +1,22 @@
+void setup()
+{
+  pinMode(4, OUTPUT);	
+}
+
+void loop()
+{
+  tone(4, 659, 100);
+  delay(150);
+  tone(4, 659, 100);
+  delay(300);
+  tone(4, 659, 100);
+  delay(300);
+  tone(4, 523, 100);
+  delay(100);
+  tone(4, 659, 100);
+  delay(300);
+  tone(4, 784, 100);
+  delay(550);
+  tone(4, 392, 100);
+  delay(2000);
+}
